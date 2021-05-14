@@ -12,8 +12,6 @@ is detected in the room.
 
 These are planned to be integrated on a Arduino board with a wifi module and eventually making it an IOT based project.
 
-These are planned to be integrated on a Arduino board with a wifi module and eventually making it an IOT based project.
-
 Timeline:
 May end : Procurement of hardware and finalization of small details and initial work.
 June end : Software realization and basic initial draft of the prototype.
