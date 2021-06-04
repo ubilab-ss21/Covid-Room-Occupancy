@@ -1,15 +1,19 @@
-# Covid-Room-Occupancy
-The goal of this project is to keep a check on the maximum number of people in a single room.
-We will first detect the human presence on the main entrance  via IR-break beam/Ultrasonic sensor in the doorway.
+# Covid-Room-Occupancy o keep a check on the maximum number of people in a single room.
+We will first detect the human presence on the main entrance  via Ultrasonic sensors in the doorway.
 The idea will be to have two such sensors kept apart to distinguish whether a person has entered a room or left the room.
 
 To increase the precision we will also try to keep a check by measuring the CO2-level.
-Further as needed we may also use a  Pressure sensor on the mat , PIR sensor,
-maybe and break-beam, or other sensors.A advanced version of a PIR sensor if used will be able to also detect the temperature
-of humans and hence to detect the presence of humans even in stationary  situations. Also this can be used to set an alarm or something similar when a human with increased body temperature is detected in the room.
+Further as needed we may also use a Pressure sensor on the mat or a PIR sensor or any other applicable sensors. We are going to implement a buzzer alarm or something similar to indicate that the number people present in a room have exceeded a certain maximum limit.
 
+COMPONENTS USED:
+1.ESP32 Pico D4 Development Board
+2.Ultrasonic sensors
+3.CO-2, Humidity, Temperature sensors
+4.Buzzer
+5.Connecting wires and supporting components.
 
 Timeline:
+
 May end : Procurement of hardware and finalization of small details and initial work.
 June end : Partial software realization.
 July Mid: Initial draft of the prototype.
