@@ -9,7 +9,7 @@ maybe and break-beam, or other sensors.A advanced version of a PIR sensor if use
 of humans and hence to detect the presence of humans even in stationary  situations. Also this can be used to set an alarm or something similar when a human with increased body temperature is detected in the room.
 
 
-Tentative Timeline:
+Timeline:
 May end : Procurement of hardware and finalization of small details and initial work.
 June end : Partial software realization.
 July Mid: Initial draft of the prototype.
