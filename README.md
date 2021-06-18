@@ -15,7 +15,7 @@ Further as needed we may also use any other applicable sensors. We are going to 
 
 2.Ultrasonic sensors
 
-3.CO-2, Humidity, Temperature sensors
+3.CO-2, Temperature based or other relevant sensors
 
 4.Buzzer
 
