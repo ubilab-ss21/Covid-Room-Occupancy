@@ -8,7 +8,7 @@ We will first detect the human presence on the main entrance  via Ultrasonic se
 The idea will be to have two such sensors kept apart to distinguish whether a person has entered a room or left the room.
 
 To increase the precision we will also try to keep a check by measuring the CO2-level.
-Further as needed we may also use a Pressure sensor on the mat or a PIR sensor or any other applicable sensors. We are going to implement a buzzer alarm or something similar to indicate that the number people present in a room have exceeded a certain maximum limit.
+Further as needed we may also use any other applicable sensors. We are going to implement a buzzer alarm or something similar to indicate that the number people present in a room have exceeded a certain maximum limit.
 
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
