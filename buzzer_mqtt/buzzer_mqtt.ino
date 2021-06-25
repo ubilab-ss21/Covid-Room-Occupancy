@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include<ArduinoJson.h>
 
-#define wifi_ssid "TP-LINK_37BC"
-#define wifi_password "50672851"
+#define wifi_ssid ""
+#define wifi_password ""
 
 #define mqtt_server "earth.informatik.uni-freiburg.de"
 //#define mqtt_user "your_username"
