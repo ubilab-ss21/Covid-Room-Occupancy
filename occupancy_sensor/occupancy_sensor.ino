@@ -276,6 +276,12 @@ void countPeople(float dis1, float dis2) {
 
 }
 
+float getStandardDeviation(float std,int iter)
+{
+   	return sqrt(std / iter) * 6;
+	
+}
+
 void loop() {
 	
   // connect client to MQTT server
@@ -317,8 +323,8 @@ void loop() {
       total1 += pow(UVONE[i] - averageDistance1, 2);
       total2 += pow(UVTWO[i] - averageDistance2, 2);
     }
-    float standardDeviation1 = sqrt(total1 / NUMITER) * 6;
-    float standardDeviation2 = sqrt(total2 / NUMITER) * 6;
+    float standardDeviation1 = getStandardDeviation(total1,NUMITER);
+    float standardDeviation2 = getStandardDeviation(total2,NUMITER);
     float standardDeviation;
     if (standardDeviation1 > standardDeviation2)
       standardDeviation = standardDeviation1;
