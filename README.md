@@ -11,7 +11,8 @@ To increase the precision we will also try to keep a check by measuring the CO2-
 
 ## MAIN IDEA :
 
-![ScreenShot](/Main_Idea.png)
+![alt text](https://github.com/ubilab-ss21/Covid-Room-Occupancy/blob/main/Main%20Idea.png?raw=true)
+
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
 
