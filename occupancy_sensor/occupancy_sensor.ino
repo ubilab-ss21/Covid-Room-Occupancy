@@ -12,8 +12,8 @@
 
 /************************************************ Macros for MQTT******************************************/
 //MQTT
-#define wifi_ssid "xxx"
-#define wifi_password "xxx"
+#define wifi_ssid ""
+#define wifi_password ""
 
 #define mqtt_server "earth.informatik.uni-freiburg.de"
 #define occupancy_topic "ubiblab/sensor/occupancy"
@@ -27,7 +27,7 @@ float newTemp;
 // buffer array
 char cbuffer[200];
 // Allocate the JSON document
-// Inside the brackets, 200 is the capacity of the memory pool in bytes.
+// Inside the brackets, 64 is the capacity of the memory pool in bytes.
 WiFiClient espClient;
 PubSubClient client(espClient);
  //JSON
@@ -35,9 +35,9 @@ StaticJsonDocument<200> doc;
 
 /* Macros for UV sensor                                                      */
 //UV sensors
-#define NO_OF_UVSENS 2
-#define UV_ONE 0
-#define UV_TWO 1
+#define number_of_uvsens 2
+#define uv_one 0
+#define uv_two 1
 
 /*************************************** PIN NUMBERS*****************************************/
 // defines pins numbers
@@ -46,7 +46,7 @@ const int echoPin[] = {12,32}; // define echo pin for 2 HC-SR04 sensors
 /*******************************************************************************************/
 
 //global variables
-float distance[NO_OF_UVSENS]; // variable to hold the distance from the UV sensor
+float distance[number_of_uvsens]; // variable to hold the distance from the UV sensor
 float UVONE[100]; //array to hold the distance for sensor 1
 float UVTWO[100]; //array to hold the distance for sensor 2
 
@@ -140,7 +140,7 @@ void setup() {
   Serial.println("SCD30 Raw Data");
   scd30.initialize();
 
-	for(i = 0; i<NO_OF_UVSENS;i++){
+	for(i = 0; i<number_of_uvsens;i++){
 		pinMode(trigPin[i], OUTPUT); // Sets the trigPin as an Output
 		pinMode(echoPin[i], INPUT); // Sets the echoPin as an Input
 	}
@@ -289,9 +289,9 @@ void loop() {
 	curr2 = data2;
 
   // read the distance from the UV sensor
-  data1 = getDistance(UV_ONE);
+  data1 = getDistance(uv_one);
   delay(60);
-  data2 = getDistance(UV_TWO);
+  data2 = getDistance(uv_two);
   
   // store the distance into array for all iterations less than NUMITER
   if (counter < NUMITER) { 
@@ -317,7 +317,7 @@ void loop() {
       total1 += pow(UVONE[i] - averageDistance1, 2);
       total2 += pow(UVTWO[i] - averageDistance2, 2);
     }
-    float standardDeviation1 = sqrt(total2 / NUMITER) * 6;
+    float standardDeviation1 = sqrt(total1 / NUMITER) * 6;
     float standardDeviation2 = sqrt(total2 / NUMITER) * 6;
     float standardDeviation;
     if (standardDeviation1 > standardDeviation2)
