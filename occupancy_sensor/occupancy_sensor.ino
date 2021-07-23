@@ -1,6 +1,6 @@
 /************************************************COVID ROOM OCCUPANCY******************************************/
 /* This program uses HC-SR04 sensor to detect the person and the direction of movement.
-/* This program integrates the SCD sensor to improve the accuracy of HC-SR04 sensor.
+/* This program integrates the SCD30 sensor to improve the accuracy of HC-SR04 sensor.
 
 /***********************************************************************************************************/
 
@@ -64,7 +64,7 @@ bool in_cond1,in_cond2 = false;
 bool out_cond1,out_cond2 = false;
 
 int counter=0; //  varaible to count the number of iterations
-float curr1=-255,curr2=-255,data1,data2; //
+float curr1=-255,curr2=-255,data1,data2; 
 int NUMITER = 100 ; // number of iterations
 float averageDistance1,averageDistance2; // average distance
 int i = 0; 
