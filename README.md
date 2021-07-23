@@ -52,7 +52,7 @@ Milestone 3 : To approximately detect the number of people in a room
 
 Milestone 4 : Based on sensor values detection of the scenario when the number of persons in a room exceed a certain threshold value.
 
-## BOM Link What we could do differently :
+## BOM Link:
 https://octopart.com/bom-tool/yxiaWwUz
 
 ## Challenges:
@@ -62,7 +62,13 @@ Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to ov
 Sensor limitation:  UV Sensor has a limitation for accurate distance measurement and also positioning of sensors contribute to the accuracy.  Initially during the setup we had not positioned the sensors properly which resulted in improper detection. After referring to papers and resources we positioned the sensors accordingly and hence overcame this limitation.
 
 ## What we could do differently :
-We would have used image processing techniques inorder to get more accurate results.
+We would have used image processing techniques in order to get more accurate results.
  
 ## References:
-
+https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+Datasheet Sensirion SCD30 Sensor Module
+IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION
+B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4
+https://www.scitepress.org/Papers/2016/59546/59546.pdf
+https://eudl.eu/pdf/10.1007/978-3-319-19743-2_27
