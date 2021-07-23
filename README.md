@@ -66,12 +66,10 @@ We would have used image processing techniques in order to get more accurate res
  
 ## References:
 
-Datasheet for ESP32-PICO-D4
-Datasheet for UV sensor HC SR-O4
-Datasheet Sensirion SCD30 Sensor Module
-
-
-IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION
+1.Datasheet for ESP32-PICO-D4
+2.Datasheet for UV sensor HC SR-O4
+3.Datasheet Sensirion SCD30 Sensor Module
+4.IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION
 B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4
 
 
