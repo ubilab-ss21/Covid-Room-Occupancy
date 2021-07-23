@@ -55,7 +55,7 @@ Milestone 4 : Based on sensor values detection of the scenario when the number o
 ## BOM Link:
 https://octopart.com/bom-tool/yxiaWwUz
 
-## Challenges:
+## Challenges faced and Solutions:
 
 Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to overcome this limitation, we used the temperature values read by C02 sensor. Sound of speed depends on the temperature value and we are getting accurate temperature values with the help of C02 sensor.
 
@@ -69,11 +69,11 @@ We would have used image processing techniques in order to get more accurate res
 1.Datasheet for ESP32-PICO-D4   <br />
 2.Datasheet for UV sensor HC SR-O4  <br />
 3.Datasheet Sensirion SCD30 Sensor Module <br />
-4.IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION  <br />
+4.Implementation Of Temperature Compensation Technique With Ultrasonic ranging For Obstacle Identification  <br />
    B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4 <br />
 5.Evaluation of an Arduino-based IoT Person Counter
   Bruno F. Carvalho, Caio C. M. Silva, Alessandra M. Silva, Fábio Buiati and Rafael Timóteo 
-6.A REAL TIME PEOPLE COUNTING ALGORITHM USING ULTRASONIC SENSORS <br />
+6.A Real Time people counting algorithm using Ultrasonic sensors <br />
    Sung-Min Yang, Young-Song Kim, Seo-Hyung Cho,Jae-Hyuk Choi  <br />
 7. On the Design of a Cost-Effective and Lightweight People Counting Sensor  <br />
    Sanjana Kadaba Viswanath1, Sai Ram Gubba2, Balasundram Arunn3,Chandra Sekar Veerappan1, and Chau Yuen  <br />
