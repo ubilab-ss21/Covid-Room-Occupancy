@@ -11,7 +11,7 @@ To increase the precision we will also try to keep a check by measuring the CO2-
 
 ## Main Idea representation
 
-![](../master/Main Idea.png)
+![Idea](Main Idea.png)
 
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
