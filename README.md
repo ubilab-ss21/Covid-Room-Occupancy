@@ -61,6 +61,8 @@ Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to ov
 
 Sensor limitation:  UV Sensor has a limitation for accurate distance measurement and also positioning of sensors contribute to the accuracy.  Initially during the setup we had not positioned the sensors properly which resulted in improper detection. After referring to papers and resources we positioned the sensors accordingly and hence overcame this limitation.
 
+Flutter: We faced lot of challenges to get the desired UI design as all the members of the team were new to this. By investing more time to learn the same we were able to overcome this limitation. 
+
 ## What we could do differently :
 We would have used image processing techniques in order to get more accurate results.
  
