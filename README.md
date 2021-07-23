@@ -72,5 +72,5 @@ Datasheet Sensirion SCD30 Sensor Module
 
 IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION
 B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4
-https://www.scitepress.org/Papers/2016/59546/59546.pdf
-https://eudl.eu/pdf/10.1007/978-3-319-19743-2_27
+
+
