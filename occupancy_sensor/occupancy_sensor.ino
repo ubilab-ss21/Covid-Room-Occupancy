@@ -12,8 +12,8 @@
 
 /************************************************ Macros for MQTT******************************************/
 //MQTT
-#define wifi_ssid "TP-LINK_37BC"
-#define wifi_password "50672851"
+#define wifi_ssid "xxx"
+#define wifi_password "xxx"
 
 #define mqtt_server "earth.informatik.uni-freiburg.de"
 #define occupancy_topic "ubiblab/sensor/occupancy"
@@ -27,7 +27,7 @@ float newTemp;
 // buffer array
 char cbuffer[200];
 // Allocate the JSON document
-// Inside the brackets, 64 is the capacity of the memory pool in bytes.
+// Inside the brackets, 200 is the capacity of the memory pool in bytes.
 WiFiClient espClient;
 PubSubClient client(espClient);
  //JSON
