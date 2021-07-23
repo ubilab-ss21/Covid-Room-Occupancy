@@ -67,6 +67,8 @@ We would have used image processing techniques in order to get more accurate res
 ## References:
 https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+Datasheet for ESP32-PICO-D4
+Datasheet for UV sensor HC SR-O4
 Datasheet Sensirion SCD30 Sensor Module
 
 
