@@ -52,5 +52,17 @@ Milestone 3 : To approximately detect the number of people in a room
 
 Milestone 4 : Based on sensor values detection of the scenario when the number of persons in a room exceed a certain threshold value.
 
-## BOM Link :
+## BOM Link What we could do differently :
 https://octopart.com/bom-tool/yxiaWwUz
+
+## Challenges:
+
+Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to overcome this limitation, we used the temperature values read by C02 sensor. Sound of speed depends on the temperature value and we are getting accurate temperature values with the help of C02 sensor.
+
+Sensor limitation:  UV Sensor has a limitation for accurate distance measurement and also positioning of sensors contribute to the accuracy.  Initially during the setup we had not positioned the sensors properly which resulted in improper detection. After referring to papers and resources we positioned the sensors accordingly and hence overcame this limitation.
+
+## What we could do differently :
+We would have used image processing techniques inorder to get more accurate results.
+ 
+## References:
+
