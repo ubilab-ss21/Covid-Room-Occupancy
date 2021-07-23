@@ -71,8 +71,8 @@ We would have used image processing techniques in order to get more accurate res
 3.Datasheet Sensirion SCD30 Sensor Module <br />
 4.Implementation Of Temperature Compensation Technique With Ultrasonic ranging For Obstacle Identification  <br />
    B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4 <br />
-5.Evaluation of an Arduino-based IoT Person Counter
-  Bruno F. Carvalho, Caio C. M. Silva, Alessandra M. Silva, Fábio Buiati and Rafael Timóteo 
+5.Evaluation of an Arduino-based IoT Person Counter<br />
+  Bruno F. Carvalho, Caio C. M. Silva, Alessandra M. Silva, Fábio Buiati and Rafael Timóteo <br />
 6.A Real Time people counting algorithm using Ultrasonic sensors <br />
    Sung-Min Yang, Young-Song Kim, Seo-Hyung Cho,Jae-Hyuk Choi  <br />
 7. On the Design of a Cost-Effective and Lightweight People Counting Sensor  <br />
