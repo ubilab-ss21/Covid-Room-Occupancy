@@ -12,7 +12,7 @@ To increase the precision we will also try to keep a check by measuring the CO2-
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
 
-2.Ultrasonic sensor HC-SR04 and SCD30 Sensor Module 
+2.Ultrasonic and CO-2 sensors 
 
 3.Buzzer
 
@@ -60,6 +60,8 @@ https://octopart.com/bom-tool/yxiaWwUz
 Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to overcome this limitation, we used the temperature values read by C02 sensor. Sound of speed depends on the temperature value and we are getting accurate temperature values with the help of C02 sensor.
 
 Sensor limitation:  UV Sensor has a limitation for accurate distance measurement and also positioning of sensors contribute to the accuracy.  Initially during the setup we had not positioned the sensors properly which resulted in improper detection. After referring to papers and resources we positioned the sensors accordingly and hence overcame this limitation.
+
+Flutter: We faced lot of challenges to get the desired UI design as all the members of the team were new to this. By investing more time to learn the same we were able to overcome this limitation. 
 
 ## What we could do differently :
 We would have used image processing techniques in order to get more accurate results.
