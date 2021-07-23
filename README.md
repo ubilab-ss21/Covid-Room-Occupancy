@@ -12,7 +12,7 @@ To increase the precision we will also try to keep a check by measuring the CO2-
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
 
-2.Ultrasonic and CO-2 sensors 
+2.Ultrasonic sensor HC-SR04 and SCD30 Sensor Module 
 
 3.Buzzer
 
