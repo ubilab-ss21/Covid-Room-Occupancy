@@ -61,17 +61,22 @@ Accuracy: Sensor HC-SR04 is economical but with limited accuracy. In order to ov
 
 Sensor limitation:  UV Sensor has a limitation for accurate distance measurement and also positioning of sensors contribute to the accuracy.  Initially during the setup we had not positioned the sensors properly which resulted in improper detection. After referring to papers and resources we positioned the sensors accordingly and hence overcame this limitation.
 
-Flutter: We faced lot of challenges to get the desired UI design as all the members of the team were new to this. By investing more time to learn the same we were able to overcome this limitation. 
-
 ## What we could do differently :
 We would have used image processing techniques in order to get more accurate results.
  
 ## References:
 
-1.Datasheet for ESP32-PICO-D4
-2.Datasheet for UV sensor HC SR-O4
-3.Datasheet Sensirion SCD30 Sensor Module
-4.IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION
-B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4
+1.Datasheet for ESP32-PICO-D4   <br />
+2.Datasheet for UV sensor HC SR-O4  <br />
+3.Datasheet Sensirion SCD30 Sensor Module <br />
+4.IMPLEMENTATION OF TEMPERATURE COMPENSATION TECHNIQUE WITH ULTRASONIC RANGING FOR OBSTACLE IDENTIFICATION  <br />
+   B.Nalini1 , B.Nandhini2 , E.Kavitha3 , Mrs R.Chandralekha4 <br />
+5.Evaluation of an Arduino-based IoT Person Counter
+  Bruno F. Carvalho, Caio C. M. Silva, Alessandra M. Silva, Fábio Buiati and Rafael Timóteo 
+6.A REAL TIME PEOPLE COUNTING ALGORITHM USING ULTRASONIC SENSORS <br />
+   Sung-Min Yang, Young-Song Kim, Seo-Hyung Cho,Jae-Hyuk Choi  <br />
+7. On the Design of a Cost-Effective and Lightweight People Counting Sensor  <br />
+   Sanjana Kadaba Viswanath1, Sai Ram Gubba2, Balasundram Arunn3,Chandra Sekar Veerappan1, and Chau Yuen  <br />
+
 
 
