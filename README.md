@@ -9,7 +9,9 @@ The idea will be to have two such sensors kept apart to distinguish whether a pe
 
 To increase the precision we will also try to keep a check by measuring the CO2-level. We are going to implement a audio warning through a buzzer alarm and a visuial alter by LED to indicate that the number people present in a room have exceeded a certain maximum limit.
 
+## MAIN IDEA :
 
+![ScreenShot](/Main_Idea.png)
 ## COMPONENTS USED:
 1.ESP32 Pico D4 Development Board
 
