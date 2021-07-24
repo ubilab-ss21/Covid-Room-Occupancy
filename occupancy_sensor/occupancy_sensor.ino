@@ -12,6 +12,7 @@
 
 /************************************************ Macros for MQTT******************************************/
 //MQTT
+// Wifi password is kept blank. Kindly update the wifi credentials while using this code.
 #define wifi_ssid ""
 #define wifi_password ""
 
